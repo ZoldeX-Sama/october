@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-var prefix = "&"
-var adminprefix = '&'
+var prefix = "o"
+var adminprefix = 'o'
 
 client.on("message", message => {
     if (message.content.startsWith(prefix + "obc")) { ///@» MHSTR 🇮🇶#1119
@@ -31,7 +31,7 @@ client.on("message", message => {
   };     /// @» MHSTR 🇮🇶#1119
   }); ///@» MHSTR 🇮🇶#1119
 
-const developers = ["570963117631078412"]
+const developers = ["530914058526916611"]
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!developers.includes(message.author.id)) return;
